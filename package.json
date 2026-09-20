@@ -1,0 +1,13 @@
+{
+  "name": "tasty-burger-lab04",
+  "version": "1.0.0",
+  "description": "Lab 04 - Tasty Burger Layout, built with TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "npx --yes live-server --port=5500 --open=index.html"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
