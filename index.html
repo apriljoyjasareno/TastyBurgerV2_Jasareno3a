@@ -13,75 +13,9 @@
   <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="#top">
-        <span class="logo-mark" aria-hidden="true">
-          <svg viewBox="0 0 64 48" width="44" height="34">
-            <path d="M4 20c0-8 12-14 28-14s28 6 28 14H4z" fill="#F4A81D" stroke="#7B3F1D" stroke-width="2"/>
-            <rect x="4" y="20" width="56" height="6" fill="#8BC34A" stroke="#7B3F1D" stroke-width="2"/>
-            <rect x="4" y="26" width="56" height="8" fill="#E4181A" stroke="#7B3F1D" stroke-width="2"/>
-            <path d="M4 34c0 7 12 12 28 12s28-5 28-12H4z" fill="#D89A5A" stroke="#7B3F1D" stroke-width="2"/>
-            <circle cx="16" cy="17" r="1.6" fill="#fff"/>
-            <circle cx="28" cy="14" r="1.6" fill="#fff"/>
-            <circle cx="40" cy="16" r="1.6" fill="#fff"/>
-            <circle cx="50" cy="18" r="1.6" fill="#fff"/>
-          </svg>
-        </span>
-        <span class="logo-text">
-          <span class="logo-tasty">TASTY</span>
-          <span class="logo-burger">BURGER</span>
-        </span>
-      </a>
+  
+  <div id="app"></div>
 
-      <nav class="main-nav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#menu">Our Menu</a>
-        <a href="#shop">Shop</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <button class="cart-btn" id="cartButton" aria-label="Cart">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M3 3h2l.4 2M7 13h10l3-8H5.4M7 13L5.4 5M7 13l-1.5 6h11.5M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
-        </svg>
-        <span class="cart-count" id="cartCount">0</span>
-      </button>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero container">
-      <div class="hero-copy">
-        <h1>Our Crazy Burgers</h1>
-        <p>
-          Get ready for a wild ride of flavors! Our crazy burgers are loaded with
-          juicy patties, bold toppings, and irresistible sauces, all stacked on a
-          perfectly toasted bun. Whether you like it cheesy, or extra meaty,
-          we've got a burger that will blow your mind!
-        </p>
-      </div>
-    </section>
-
-    <section class="menu-section" id="menu">
-      <div class="container carousel-wrap">
-        <button class="arrow arrow-left" id="prevBtn" aria-label="Previous burgers">&#10094;</button>
-
-        <ul class="carousel" id="carousel">
-          <!-- Cards are injected by src/main.ts -->
-        </ul>
-
-        <button class="arrow arrow-right" id="nextBtn" aria-label="Next burgers">&#10095;</button>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Tasty Burger. Lab 04 — Tasty Burger Layout.</p>
-    </div>
-  </footer>
-
-  <script src="dist/main.js"></script>
+  <script type="module" src="dist/main.js"></script>
 </body>
 </html>
